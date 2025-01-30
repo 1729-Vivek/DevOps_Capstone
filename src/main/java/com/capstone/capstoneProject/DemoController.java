@@ -1,14 +1,14 @@
-package com.example.demo;
+package com.capstone.capstoneProject;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/req")
 public class DemoController {
     @GetMapping("/hello")
-    public String hello() {
-        return "Hello, DevOps!";
+    public String sayHello() {
+        return "Hello This program is going to pushed to github";
     }
 }
